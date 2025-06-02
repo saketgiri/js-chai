@@ -19,7 +19,18 @@
 //empty string goes to false, non-empty goes to true
 //0 goes to false, all else goes to true
 
-let someNumber = 22;
-let numberAsString = String(someNumber);
-console.log(typeof numberAsString);
-console.log(numberAsString);
+// let someNumber = 22;
+// let numberAsString = String(someNumber);
+// console.log(typeof numberAsString);
+// console.log(numberAsString);
+
+let sampleNumber = 100;
+console.log(++sampleNumber);
+console.log(sampleNumber++);
+console.log(sampleNumber);
+
+let n = 2;
+console.log(typeof n);
+console.log(typeof null);
+console.log(typeof undefined);
+
